@@ -1,0 +1,10 @@
+
+imgRoot='D:\tracking\Saliency_Detection\MR\';% test image path
+imname=[imgRoot 'im005.jpg'];
+name = 'im005.jpg';
+img=imread(imname);
+[L,a,b]=RGB2Lab(img);
+[salMat,salMatInd]=saliencyMeasure({L,a,b});
+imwrite(salMat,'saliency.','png');
+
+          
