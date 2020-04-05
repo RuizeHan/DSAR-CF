@@ -18,6 +18,6 @@ We then propose a strategy to dynamically update the regularization weight map t
 We then develop a level-set algorithm to iteratively optimize the regularization weight map in each frame. 
 
 ## Experiments
-The experimental results on OTB-2013/2015:  
+The experimental results on OTB-2013/2015: (We put the raw results in results_DSAR-CF_OTB15.zip)  
 
 ![res](https://github.com/HanRuize/DSAR-CF/blob/master/figs/res.png)
